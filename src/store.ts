@@ -516,9 +516,9 @@ export async function upsertSeedTeam(input: {
         input.summaries[index % input.summaries.length],
         `seed-${index + 1}`,
       ),
-      at,
     };
-    atomic = atomic.set(["team_timeline", teamId, Date.parse(at), point.id], point);
+    point.at = toPublicWeekBucket(at);
+    atomic = atomic.set(["team_timeline", teamId, publicTimeSortKey(point.at), point.id], point);
   }
 
   for (const [index, event] of (input.major_events ?? []).entries()) {
