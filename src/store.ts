@@ -64,19 +64,12 @@ function publicTimeSortKey(value: string): number {
   return Number.isFinite(parsed) ? parsed : 0;
 }
 
-function weekMonth(weekBucket: string): string {
-  const match = weekBucket.match(/^(\d{4})-W(\d{2})$/i);
-  if (!match) return "";
-  const date = new Date(Date.UTC(Number(match[1]), 0, 1 + (Number(match[2]) - 1) * 7));
-  return `${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, "0")}`;
-}
-
 function eventMatchesWeek(eventAt: string, weekBucket: string): boolean {
   const normalized = eventAt.toUpperCase();
   const week = weekBucket.toUpperCase();
   if (/^\d{4}-W\d{2}$/.test(normalized)) return normalized === week;
   if (/^\d{4}-\d{2}-\d{2}$/.test(normalized)) return toPublicWeekBucket(normalized) === week;
-  if (/^\d{4}-\d{2}$/.test(normalized)) return normalized === weekMonth(week);
+  if (/^\d{4}-\d{2}$/.test(normalized)) return toPublicWeekBucket(normalized + "-15") === week;
   return false;
 }
 

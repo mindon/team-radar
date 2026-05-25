@@ -34,7 +34,7 @@ const samples: Array<{
     ],
     major_events: [
       {
-        occurred_at: "2026-04",
+        occurred_at: "2026-04-15",
         brief: "平台目标切换为交付稳定性优先，反馈频率和排期压力同步上升。",
         source_title: "公开产品路线更新",
         source_url: "https://example.com/public-roadmap-update",
@@ -60,7 +60,7 @@ const samples: Array<{
     ],
     major_events: [
       {
-        occurred_at: "2026-03",
+        occurred_at: "2026-03-15",
         brief: "团队调整为长期产品维护模式，工作边界和授权稳定性明显改善。",
       },
     ],
@@ -84,7 +84,7 @@ const samples: Array<{
     ],
     major_events: [
       {
-        occurred_at: "2026-02",
+        occurred_at: "2026-02-15",
         brief: "增长目标上调后评审周期缩短，工作节奏和目标变更频率明显提高。",
       },
     ],
@@ -108,7 +108,7 @@ const samples: Array<{
     ],
     major_events: [
       {
-        occurred_at: "2026-05",
+        occurred_at: "2026-05-15",
         brief: "产品方向从外包交付转向自研探索，授权空间和试错容忍度明显提升。",
         source_title: "公开产品方向披露",
         source_url: "https://example.com/public-product-direction",

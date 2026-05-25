@@ -476,15 +476,6 @@ function toWeekBucket(value) {
   return `${utc.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
 }
 
-function weekMonth(week) {
-  const match = String(week).match(/^(\d{4})-W(\d{2})$/i);
-  if (!match) return "";
-  const year = Number(match[1]);
-  const weekNo = Number(match[2]);
-  const date = new Date(Date.UTC(year, 0, 1 + (weekNo - 1) * 7));
-  return `${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, "0")}`;
-}
-
 function eventMatchesWeek(eventAt, week) {
   if (!eventAt || !week) return false;
   const normalized = String(eventAt).toUpperCase();
@@ -492,7 +483,9 @@ function eventMatchesWeek(eventAt, week) {
   if (/^\d{4}-\d{2}-\d{2}$/.test(normalized)) {
     return toWeekBucket(normalized) === week.toUpperCase();
   }
-  if (/^\d{4}-\d{2}$/.test(normalized)) return normalized === weekMonth(week);
+  if (/^\d{4}-\d{2}$/.test(normalized)) {
+    return toWeekBucket(normalized + "-15") === week.toUpperCase();
+  }
   return false;
 }
 
