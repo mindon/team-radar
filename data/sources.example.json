@@ -1,0 +1,24 @@
+[
+  {
+    "id": "company-engineering-blog",
+    "name": "Company Engineering Blog",
+    "kind": "rss",
+    "url": "https://engineering.example.corp/feed.xml",
+    "trust_level": "official",
+    "domain_allowlist": ["engineering.example.corp", "example.corp"],
+    "auto_confirm": true,
+    "group_hints": ["example"],
+    "team_hints": ["platform", "infrastructure", "ai", "developer tools"]
+  },
+  {
+    "id": "company-release-notes",
+    "name": "Company Release Notes",
+    "kind": "html",
+    "url": "https://releases.example.corp/",
+    "trust_level": "primary_public",
+    "domain_allowlist": ["releases.example.corp", "example.corp"],
+    "auto_confirm": true,
+    "group_hints": ["example"],
+    "team_hints": ["product", "platform", "cloud", "data"]
+  }
+]

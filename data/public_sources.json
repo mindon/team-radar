@@ -1,0 +1,112 @@
+[
+  {
+    "id": "deno-blog",
+    "name": "Deno Blog",
+    "kind": "rss",
+    "url": "https://deno.com/blog/feed",
+    "trust_level": "official",
+    "domain_allowlist": ["deno.com"],
+    "auto_confirm": true,
+    "group_hints": ["deno"],
+    "team_hints": ["runtime", "deploy", "developer platform"]
+  },
+  {
+    "id": "github-blog",
+    "name": "GitHub Blog",
+    "kind": "rss",
+    "url": "https://github.blog/feed/",
+    "trust_level": "official",
+    "domain_allowlist": ["github.blog", "github.com"],
+    "auto_confirm": true,
+    "group_hints": ["github", "microsoft"],
+    "team_hints": ["developer platform", "engineering", "ai"]
+  },
+  {
+    "id": "cloudflare-blog",
+    "name": "Cloudflare Blog",
+    "kind": "rss",
+    "url": "https://blog.cloudflare.com/rss/",
+    "trust_level": "official",
+    "domain_allowlist": ["blog.cloudflare.com", "cloudflare.com"],
+    "auto_confirm": true,
+    "group_hints": ["cloudflare"],
+    "team_hints": ["edge platform", "workers", "infrastructure"]
+  },
+  {
+    "id": "google-cloud-blog",
+    "name": "Google Cloud Blog",
+    "kind": "rss",
+    "url": "https://cloud.google.com/blog/rss",
+    "trust_level": "official",
+    "domain_allowlist": ["cloud.google.com", "googlecloudplatform.github.io"],
+    "auto_confirm": true,
+    "group_hints": ["google", "google cloud"],
+    "team_hints": ["cloud", "ai", "infrastructure"]
+  },
+  {
+    "id": "aws-whats-new",
+    "name": "AWS What's New",
+    "kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+    "trust_level": "official",
+    "domain_allowlist": ["aws.amazon.com", "amazon.com"],
+    "auto_confirm": true,
+    "group_hints": ["amazon", "aws"],
+    "team_hints": ["cloud", "infrastructure", "platform"]
+  },
+  {
+    "id": "azure-updates",
+    "name": "Azure Updates",
+    "kind": "rss",
+    "url": "https://azure.microsoft.com/en-us/updates/feed/",
+    "trust_level": "official",
+    "domain_allowlist": ["azure.microsoft.com", "microsoft.com"],
+    "auto_confirm": true,
+    "group_hints": ["microsoft", "azure"],
+    "team_hints": ["cloud", "developer platform", "ai"]
+  },
+  {
+    "id": "openai-news",
+    "name": "OpenAI News",
+    "kind": "rss",
+    "url": "https://openai.com/news/rss.xml",
+    "trust_level": "official",
+    "domain_allowlist": ["openai.com"],
+    "auto_confirm": true,
+    "group_hints": ["openai"],
+    "team_hints": ["ai", "research", "product"]
+  },
+  {
+    "id": "anthropic-news",
+    "name": "Anthropic News",
+    "kind": "html",
+    "url": "https://www.anthropic.com/news",
+    "trust_level": "official",
+    "domain_allowlist": ["anthropic.com"],
+    "auto_confirm": true,
+    "group_hints": ["anthropic"],
+    "team_hints": ["ai", "research", "product"]
+  },
+  {
+    "id": "bytedance-news",
+    "name": "ByteDance News",
+    "kind": "html",
+    "url": "https://www.bytedance.com/en/news",
+    "trust_level": "official",
+    "domain_allowlist": ["bytedance.com"],
+    "auto_confirm": true,
+    "group_hints": ["bytedance"],
+    "team_hints": ["product", "platform", "ai"]
+  },
+  {
+    "id": "cncf-blog",
+    "name": "CNCF Blog",
+    "kind": "rss",
+    "url": "https://www.cncf.io/feed/",
+    "trust_level": "primary_public",
+    "domain_allowlist": ["cncf.io"],
+    "auto_confirm": false,
+    "group_hints": ["cncf"],
+    "team_hints": ["cloud native", "infrastructure", "platform"]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-env --allow-read --unstable-kv --watch src/main.ts",
+    "start": "deno run --allow-net --allow-env --allow-read --unstable-kv src/main.ts",
+    "seed": "deno run --allow-env --unstable-kv src/seed.ts",
+    "seed:known": "deno run --allow-env --allow-read --unstable-kv src/seed_known_teams.ts",
+    "collect:events": "deno run --allow-net --allow-env --allow-read --unstable-kv src/agents/public_event_collector.ts",
+    "collect:agent": "PUBLIC_EVENT_ADMIN_AGENT=1 deno run --allow-net --allow-env --allow-read --unstable-kv src/agents/public_event_collector.ts",
+    "check": "deno check --unstable-kv src/main.ts src/seed.ts src/seed_known_teams.ts src/agents/public_event_collector.ts"
+  },
+  "imports": {
+    "@std/http": "jsr:@std/http@^1.0.0"
+  },
+  "fmt": {
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "semiColons": true,
+    "singleQuote": false
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  }
+}

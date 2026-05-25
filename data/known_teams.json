@@ -1,0 +1,269 @@
+[
+  {
+    "slug": "openai-api-platform",
+    "group_name": "OpenAI",
+    "dept_path": "API Platform",
+    "team_alias": "OpenAI API Platform",
+    "team_hints": ["api", "platform", "responses api", "assistants", "realtime"],
+    "public_sources": ["https://openai.com/news/", "https://platform.openai.com/docs"]
+  },
+  {
+    "slug": "openai-chatgpt",
+    "group_name": "OpenAI",
+    "dept_path": "ChatGPT Product",
+    "team_alias": "ChatGPT",
+    "team_hints": ["chatgpt", "product", "search", "voice", "desktop"],
+    "public_sources": ["https://openai.com/news/"]
+  },
+  {
+    "slug": "anthropic-claude-api",
+    "group_name": "Anthropic",
+    "dept_path": "Claude API Platform",
+    "team_alias": "Claude API",
+    "team_hints": ["claude", "api", "model", "developer platform"],
+    "public_sources": ["https://www.anthropic.com/news", "https://docs.anthropic.com/"]
+  },
+  {
+    "slug": "anthropic-claude-product",
+    "group_name": "Anthropic",
+    "dept_path": "Claude Product",
+    "team_alias": "Claude Product",
+    "team_hints": ["claude", "artifacts", "computer use", "product"],
+    "public_sources": ["https://www.anthropic.com/news"]
+  },
+  {
+    "slug": "cloudflare-workers",
+    "group_name": "Cloudflare",
+    "dept_path": "Developer Platform / Workers",
+    "team_alias": "Cloudflare Workers",
+    "team_hints": ["workers", "durable objects", "r2", "developer platform", "edge"],
+    "public_sources": ["https://blog.cloudflare.com/", "https://developers.cloudflare.com/workers/"]
+  },
+  {
+    "slug": "cloudflare-r2",
+    "group_name": "Cloudflare",
+    "dept_path": "Developer Platform / R2",
+    "team_alias": "Cloudflare R2",
+    "team_hints": ["r2", "storage", "workers", "object storage"],
+    "public_sources": ["https://blog.cloudflare.com/", "https://developers.cloudflare.com/r2/"]
+  },
+  {
+    "slug": "vercel-nextjs",
+    "group_name": "Vercel",
+    "dept_path": "Frameworks / Next.js",
+    "team_alias": "Next.js",
+    "team_hints": ["next.js", "nextjs", "react", "app router", "framework"],
+    "public_sources": ["https://vercel.com/blog", "https://nextjs.org/blog"]
+  },
+  {
+    "slug": "vercel-ai-sdk",
+    "group_name": "Vercel",
+    "dept_path": "AI SDK",
+    "team_alias": "Vercel AI SDK",
+    "team_hints": ["ai sdk", "sdk", "model provider", "streaming"],
+    "public_sources": ["https://vercel.com/blog", "https://sdk.vercel.ai/"]
+  },
+  {
+    "slug": "github-copilot",
+    "group_name": "GitHub",
+    "dept_path": "GitHub Copilot",
+    "team_alias": "GitHub Copilot",
+    "team_hints": ["copilot", "coding agent", "code completion", "developer ai"],
+    "public_sources": ["https://github.blog/", "https://github.com/features/copilot"]
+  },
+  {
+    "slug": "github-actions",
+    "group_name": "GitHub",
+    "dept_path": "GitHub Actions",
+    "team_alias": "GitHub Actions",
+    "team_hints": ["actions", "ci", "runner", "workflow", "automation"],
+    "public_sources": ["https://github.blog/", "https://docs.github.com/actions"]
+  },
+  {
+    "slug": "microsoft-vscode",
+    "group_name": "Microsoft",
+    "dept_path": "Developer Division / VS Code",
+    "team_alias": "Visual Studio Code",
+    "team_hints": ["vs code", "vscode", "editor", "extension", "developer tools"],
+    "public_sources": ["https://code.visualstudio.com/updates", "https://devblogs.microsoft.com/"]
+  },
+  {
+    "slug": "microsoft-azure-ai",
+    "group_name": "Microsoft",
+    "dept_path": "Azure AI Platform",
+    "team_alias": "Azure AI",
+    "team_hints": ["azure ai", "openai service", "model catalog", "ai foundry"],
+    "public_sources": [
+      "https://azure.microsoft.com/updates/",
+      "https://techcommunity.microsoft.com/"
+    ]
+  },
+  {
+    "slug": "google-gke",
+    "group_name": "Google",
+    "dept_path": "Google Cloud / GKE",
+    "team_alias": "Google Kubernetes Engine",
+    "team_hints": ["gke", "kubernetes", "containers", "anthos"],
+    "public_sources": [
+      "https://cloud.google.com/blog/",
+      "https://cloud.google.com/kubernetes-engine"
+    ]
+  },
+  {
+    "slug": "google-gemini-api",
+    "group_name": "Google",
+    "dept_path": "Gemini API / AI Studio",
+    "team_alias": "Gemini API",
+    "team_hints": ["gemini", "ai studio", "model", "developer api"],
+    "public_sources": ["https://developers.googleblog.com/", "https://ai.google.dev/"]
+  },
+  {
+    "slug": "aws-lambda",
+    "group_name": "AWS",
+    "dept_path": "Compute / Lambda",
+    "team_alias": "AWS Lambda",
+    "team_hints": ["lambda", "serverless", "compute", "runtime"],
+    "public_sources": [
+      "https://aws.amazon.com/about-aws/whats-new/",
+      "https://aws.amazon.com/blogs/compute/"
+    ]
+  },
+  {
+    "slug": "aws-bedrock",
+    "group_name": "AWS",
+    "dept_path": "AI / Bedrock",
+    "team_alias": "Amazon Bedrock",
+    "team_hints": ["bedrock", "foundation model", "agent", "genai"],
+    "public_sources": [
+      "https://aws.amazon.com/blogs/machine-learning/",
+      "https://aws.amazon.com/bedrock/"
+    ]
+  },
+  {
+    "slug": "meta-react",
+    "group_name": "Meta",
+    "dept_path": "Open Source / React",
+    "team_alias": "React",
+    "team_hints": ["react", "react compiler", "server components", "framework"],
+    "public_sources": ["https://react.dev/blog", "https://engineering.fb.com/"]
+  },
+  {
+    "slug": "meta-llama",
+    "group_name": "Meta",
+    "dept_path": "GenAI / Llama",
+    "team_alias": "Llama",
+    "team_hints": ["llama", "model", "genai", "open model"],
+    "public_sources": ["https://ai.meta.com/blog/", "https://engineering.fb.com/"]
+  },
+  {
+    "slug": "apple-webkit",
+    "group_name": "Apple",
+    "dept_path": "WebKit",
+    "team_alias": "WebKit",
+    "team_hints": ["webkit", "safari", "browser", "web engine"],
+    "public_sources": ["https://webkit.org/blog/", "https://developer.apple.com/news/"]
+  },
+  {
+    "slug": "apple-coreml",
+    "group_name": "Apple",
+    "dept_path": "Machine Learning / Core ML",
+    "team_alias": "Core ML",
+    "team_hints": ["core ml", "machine learning", "on-device", "model"],
+    "public_sources": [
+      "https://developer.apple.com/machine-learning/",
+      "https://developer.apple.com/news/"
+    ]
+  },
+  {
+    "slug": "bytedance-volcengine",
+    "group_name": "ByteDance",
+    "dept_path": "Volcengine / Cloud Platform",
+    "team_alias": "Volcengine",
+    "team_hints": ["volcengine", "cloud", "platform", "infrastructure"],
+    "public_sources": ["https://www.volcengine.com/", "https://www.bytedance.com/en/news"]
+  },
+  {
+    "slug": "bytedance-doubao",
+    "group_name": "ByteDance",
+    "dept_path": "AI / Doubao",
+    "team_alias": "Doubao",
+    "team_hints": ["doubao", "豆包", "model", "ai", "agent"],
+    "public_sources": ["https://www.volcengine.com/", "https://www.bytedance.com/en/news"]
+  },
+  {
+    "slug": "tencent-cloud",
+    "group_name": "Tencent",
+    "dept_path": "Tencent Cloud",
+    "team_alias": "Tencent Cloud",
+    "team_hints": ["tencent cloud", "cloud", "developer", "platform"],
+    "public_sources": [
+      "https://www.tencentcloud.com/blog",
+      "https://www.tencentcloud.com/announcements"
+    ]
+  },
+  {
+    "slug": "tencent-hunyuan",
+    "group_name": "Tencent",
+    "dept_path": "AI / Hunyuan",
+    "team_alias": "Hunyuan",
+    "team_hints": ["hunyuan", "混元", "model", "ai"],
+    "public_sources": [
+      "https://www.tencentcloud.com/products/hunyuan",
+      "https://www.tencentcloud.com/blog"
+    ]
+  },
+  {
+    "slug": "alibaba-cloud",
+    "group_name": "Alibaba",
+    "dept_path": "Alibaba Cloud",
+    "team_alias": "Alibaba Cloud",
+    "team_hints": ["alibaba cloud", "aliyun", "cloud", "infrastructure"],
+    "public_sources": [
+      "https://www.alibabacloud.com/blog",
+      "https://www.alibabacloud.com/help/whats-new"
+    ]
+  },
+  {
+    "slug": "alibaba-tongyi",
+    "group_name": "Alibaba",
+    "dept_path": "AI / Tongyi",
+    "team_alias": "Tongyi",
+    "team_hints": ["tongyi", "qwen", "通义", "model studio", "bailian"],
+    "public_sources": [
+      "https://www.alibabacloud.com/blog",
+      "https://help.aliyun.com/zh/model-studio/"
+    ]
+  },
+  {
+    "slug": "netflix-platform",
+    "group_name": "Netflix",
+    "dept_path": "Engineering Platform",
+    "team_alias": "Netflix Platform",
+    "team_hints": ["platform", "developer productivity", "cloud", "data"],
+    "public_sources": ["https://netflixtechblog.com/", "https://netflix.github.io/"]
+  },
+  {
+    "slug": "uber-platform",
+    "group_name": "Uber",
+    "dept_path": "Engineering Platform",
+    "team_alias": "Uber Platform",
+    "team_hints": ["platform", "infrastructure", "data", "developer productivity"],
+    "public_sources": ["https://www.uber.com/en-US/blog/engineering/", "https://eng.uber.com/"]
+  },
+  {
+    "slug": "stripe-payments",
+    "group_name": "Stripe",
+    "dept_path": "Payments Platform",
+    "team_alias": "Stripe Payments",
+    "team_hints": ["payments", "platform", "api", "billing"],
+    "public_sources": ["https://stripe.com/blog/engineering", "https://stripe.com/changelog"]
+  },
+  {
+    "slug": "shopify-platform",
+    "group_name": "Shopify",
+    "dept_path": "Developer Platform",
+    "team_alias": "Shopify Platform",
+    "team_hints": ["developer platform", "commerce", "hydrogen", "checkout"],
+    "public_sources": ["https://shopify.engineering/", "https://shopify.dev/changelog"]
+  }
+]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TeamRadar · 管理风格雷达</title>
+    <meta name="description" content="匿名、延迟发布、差分隐私保护的团队管理风格数据库" />
+    <link rel="stylesheet" href="/styles.css?v=radar-label-padding-1" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <main>
+      <section class="hero">
+        <nav class="topbar">
+          <div class="brand">
+            <span class="brand-mark"></span>
+            <span>TeamRadar</span>
+          </div>
+          <button id="open-contribute" class="ghost-button">匿名贡献</button>
+        </nav>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Micro-culture intelligence</p>
+            <h1>选择，看见团队。</h1>
+            <p class="lead">
+              TeamRadar 用影子缓冲、延迟发布和语义脱敏，把零散评价转成可比较的六维雷达图。
+            </p>
+            <form id="search-form" class="search-box">
+              <input
+                id="search-input"
+                name="q"
+                autocomplete="off"
+                placeholder="例如：技术导向、不画饼、边界清晰"
+              />
+              <button type="submit">匹配团队</button>
+            </form>
+            <div class="quick-tags" aria-label="快捷筛选标签">
+              <button data-tag="技术导向">技术导向</button>
+              <button data-tag="边界清晰">边界清晰</button>
+              <button data-tag="高授权">高授权</button>
+              <button data-tag="高强度节奏">高强度节奏</button>
+            </div>
+          </div>
+          <div class="hero-panel" aria-label="隐私保护机制">
+            <div class="panel-ring"></div>
+            <p class="panel-kicker">Privacy floor</p>
+            <strong>N ≥ 3</strong>
+            <span>样本量不足的团队保持影子状态，不公开雷达图或摘要。</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="results-head">
+        <div>
+          <p class="eyebrow">Active teams</p>
+          <h2>已达到安全阈值的团队</h2>
+        </div>
+        <button id="refresh" class="ghost-button">刷新</button>
+      </section>
+
+      <section id="team-grid" class="team-grid" aria-live="polite"></section>
+      <p id="empty-state" class="empty-state" hidden>
+        还没有公开团队。可先运行 <code>deno task seed</code> 生成演示数据。
+      </p>
+    </main>
+
+    <give-take-modal></give-take-modal>
+    <script type="module" src="/app.js?v=radar-label-padding-1"></script>
+  </body>
+</html>
