@@ -2,7 +2,7 @@
   "tasks": {
     "dev": "deno run --allow-net --allow-env --allow-read --unstable-kv --watch src/main.ts",
     "start": "deno run --allow-net --allow-env --allow-read --unstable-kv src/main.ts",
-    "seed": "deno run --allow-env --unstable-kv src/seed.ts",
+    "seed": "deno run --allow-env --allow-net --unstable-kv src/seed.ts",
     "seed:known": "deno run --allow-env --allow-read --unstable-kv src/seed_known_teams.ts",
     "collect:events": "deno run --allow-net --allow-env --allow-read --unstable-kv src/agents/public_event_collector.ts",
     "collect:agent": "PUBLIC_EVENT_ADMIN_AGENT=1 deno run --allow-net --allow-env --allow-read --unstable-kv src/agents/public_event_collector.ts",
